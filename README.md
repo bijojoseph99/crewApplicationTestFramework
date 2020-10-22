@@ -8,11 +8,11 @@ The tests are run using  [cypress](https://github.com/cypress-io/cypress).
 
 ### Project Structure
 
-- The tests are found inside ```/cypress/integration/RegistrationTests```
+- The tests are found inside ```/cypress/integration/Tests```
 
 ### Start Server
 
-- Start the Crew App Server ```http://localhost:5000``` from the Application Solution
+- Start the Crew App Server ```http://localhost:3000``` from the Application Solution
 
 ### Getting Started with the Test Framework
 

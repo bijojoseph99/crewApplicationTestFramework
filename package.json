@@ -4,9 +4,8 @@
   "description": "Crew Application Test Framework",
   "main": "index.js",
   "scripts": {
-    "test": "cypress run",
-    "cypressOpen": "cypress open",
-    "start": "node index.js",
+    "test": "cypress run --record --key 5cfdbab7-cb0c-4ac2-95ce-0da5fb3bec22",
+    "cypressOpen": "cypress open",   
     "testChrome": "cypress run --browser chrome",
     "testFirefox": "cypress run --browser firefox"
   },

@@ -1,13 +1,14 @@
 {
-    "baseUrl": "http://localhost:3000",
-    "viewportWidth": 1280,
-    "viewportHeight": 800,
-    "reporter": "mochawesome",
-    "reporterOptions": {
-        "reportDir": "cypress/report/mochawesome-report",
-        "overwrite": true,
-        "html": true,
-        "json": false,
-        "timestamp": "mmddyyyy_HHMMss"
-    }
+  "baseUrl": "http://localhost:3000",
+  "viewportWidth": 1280,
+  "viewportHeight": 800,
+  "reporter": "mochawesome",
+  "reporterOptions": {
+    "reportDir": "cypress/report/mochawesome-report",
+    "overwrite": true,
+    "html": true,
+    "json": false,
+    "timestamp": "mmddyyyy_HHMMss"
+  },
+  "projectId": "oeuewh"
 }
