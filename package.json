@@ -1,0 +1,24 @@
+{
+  "name": "crewapplicationtestframework",
+  "version": "1.0.0",
+  "description": "Crew Application Test Framework",
+  "main": "index.js",
+  "scripts": {
+    "test": "cypress run",
+    "cypressOpen": "cypress open",
+    "start": "node index.js",
+    "testChrome": "cypress run --browser chrome",
+    "testFirefox": "cypress run --browser firefox"
+  },
+  "author": "Bijo Joseph",
+  "license": "ISC",
+  "dependencies": {
+    "cypress": "^5.4.0"
+  },
+  "devDependencies": {
+    "express": "^4.17.1",
+    "mocha": "^8.2.0",
+    "mochawesome": "^6.1.1",
+    "mochawesome-merge": "^4.2.0"
+  }
+}
